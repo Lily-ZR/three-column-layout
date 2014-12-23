@@ -36,7 +36,10 @@
 <body>
   <div class="container">
   	<div class="left">this is left body</div>
-  	<div class="middle">this is main body</div>
+  	<div class="middle">
+  	this is main body
+  	<p>在git中直接修改</p>
+  	</div>
     <div class="right">this is right body</div>
   </div>
 	
