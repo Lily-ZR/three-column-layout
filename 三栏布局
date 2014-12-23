@@ -35,9 +35,9 @@
 </head>
 <body>
   <div class="container">
-  	<div class="left"></div>
-  	<div class="middle"></div>
-    <div class="right"></div>
+  	<div class="left">this is left body</div>
+  	<div class="middle">this is main body</div>
+    <div class="right">this is right body</div>
   </div>
 	
 </body>
