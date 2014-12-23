@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三栏</title>
+	<style type="text/css">
+	  .container{
+	  	position: relative;
+	 /* 	min-width: 600px;*/
+	  }
+	  .left{
+        position: absolute;
+        left: 0px;
+        width: 100px;
+        height: 700px;
+        background-color: gray;
+	  }
+	  .right{
+	  	position: absolute;
+	  	right: 0px;
+	  	width: 100px;
+	  	height: 700px;
+	  	background-color: gray;
+	  }
+	  .middle{
+	  	position: absolute;
+	  	left: 100px;
+	  	right: 100px;
+	  	width:auto;
+	  	height: 700px;
+	  }
+
+	</style>
+
+</head>
+<body>
+  <div class="container">
+  	<div class="left"></div>
+  	<div class="middle"></div>
+    <div class="right"></div>
+  </div>
+	
+</body>
+</html>
